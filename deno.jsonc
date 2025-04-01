@@ -1,6 +1,9 @@
 {
-  "lock": false,
+  "name": "@knorpelsenf/panic",
+  "version": "0.0.0",
+  "exports":"./mod.ts",
   "tasks": {
     "ok": "deno fmt --check && deno lint && deno check mod.ts"
-  }
+  },
+  "lock": false
 }

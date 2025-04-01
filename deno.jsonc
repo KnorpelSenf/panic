@@ -1,0 +1,6 @@
+{
+  "lock": false,
+  "tasks": {
+    "ok": "deno fmt --check && deno lint && deno check mod.ts"
+  }
+}

@@ -39,8 +39,8 @@ function die(message: string): never {
     // catch mutations of global variables like process or Deno
   }
   // if we are still alive, we can only block the UI
-  if (typeof alert === "function") {
-    while (true) {
+  while (true) {
+    if (typeof alert === "function") {
       try {
         alert(message);
       } catch {
@@ -48,8 +48,6 @@ function die(message: string): never {
       }
     }
   }
-  // fml
-  while (true);
 }
 
 /**

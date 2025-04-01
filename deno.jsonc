@@ -1,7 +1,7 @@
 {
   "name": "@knorpelsenf/panic",
   "version": "0.0.0",
-  "exports":"./mod.ts",
+  "exports": "./mod.ts",
   "license": "MIT",
   "tasks": {
     "ok": "deno fmt --check && deno lint && deno check mod.ts"

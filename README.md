@@ -15,7 +15,7 @@ the state of your application and you want to kill it no matter what.
 None of these functions allow your program to ever recover from calling them.
 They should always be the very last thing you do.
 
-For exmaple, they are great if you want to implement assertions.
+For example, they are great if you want to implement assertions.
 
 ```ts
 function assert(shouldBeTrue: boolean) {
